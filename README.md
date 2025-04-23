@@ -105,7 +105,7 @@ _(Tutaj uzupełnij po zakończeniu projektu)_
 
 W razie pytań:
 - Email: _21306@student.ans-elblag.pl_ lub _21181@student.ans-elblag.pl_
-- GitHub: GacusPL(https://github.com/GacusPL), Thiago1717(https://github.com/Thiago1717)
+- GitHub: Kacper Szponar (https://github.com/GacusPL), Oliwier Bogdański (https://github.com/Thiago1717)
 
 ---
 
