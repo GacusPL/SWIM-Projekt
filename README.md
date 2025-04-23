@@ -3,9 +3,9 @@
 # 🚗 Autonomiczny Pojazd z STM32
 
 Projekt semestralny z przedmiotu **Systemy Wbudowane i Mikrokontrolery**  
-Autorzy: _[Kacper Szponar]_, _[Oliwier Bogdański]_  
-Numery indeksu: _[21306]_, _[21181]_  
-Data rozpoczęcia: _[23.04.2025]_  
+Autorzy: _Kacper Szponar_, _Oliwier Bogdański_  
+Numery indeksu: _21306_, _21181_  
+Data rozpoczęcia: _23.04.2025_  
 Repozytorium zawiera kod, dokumentację oraz materiały projektowe.
 
 ---
@@ -105,7 +105,7 @@ _(Tutaj uzupełnij po zakończeniu projektu)_
 
 W razie pytań:
 - Email: _21306@student.ans-elblag.pl_ lub _21181@student.ans-elblag.pl_
-- GitHub: [GacusPL](https://github.com/GacusPL), [Thiago1717](https://github.com/Thiago1717)
+- GitHub: GacusPL(https://github.com/GacusPL), Thiago1717(https://github.com/Thiago1717)
 
 ---
 
