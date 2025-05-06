@@ -16,17 +16,29 @@ Celem projektu jest opracowanie modelu autonomicznego pojazdu sterowanego za pom
 
 ---
 
-## 🛠️ Zastosowane technologie i narzędzia
+## 🛠️ Zastosowane technologie i komponenty
 
-- **Mikrokontroler:** STM32 (model np. STM32F103C8T6)
-- **IDE:** STM32CubeIDE
-- **Programowanie:** C (HAL / LL)
-- **Sensory:**
-  - HC-SR04 (ultradźwiękowy)
-  - Sensory optyczne (IR)
-- **Zasilanie:** Akumulator Li-Ion / Powerbank
-- **Sterownik silników:** np. L298N
-- **Komunikacja:** UART (Bluetooth HC-05 / USB)
+### Mikrokontroler
+- STM32F303VCT6 Discovery
+- Programowanie w języku C z użyciem bibliotek HAL/LL
+- IDE: STM32CubeIDE
+
+### Zasilanie
+- 3x ogniwo Li-Ion INR18650-F1HR 3350mAh
+- Łączne napięcie dostosowane do wymagań silników i mikrokontrolera
+
+### Napęd i sterowanie
+- Chassis Rectangle 2WD – podwozie robota z napędem na dwa koła
+- Silniki DC sterowane przy użyciu mostka H L293D
+
+### Sensory
+- HC-SR04 – ultradźwiękowy czujnik odległości (2–200 cm) z uchwytem montażowym
+- KAmodQTR8A – moduł z 8 czujnikami odbiciowymi KTIR0711S (detekcja linii)
+
+### Komunikacja
+- Moduł Bluetooth 4.0 BLE
+- Interfejs UART (komunikacja bezprzewodowa lub przez USB)
+
 
 ---
 
