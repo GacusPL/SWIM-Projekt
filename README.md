@@ -97,6 +97,14 @@ Pełna dokumentacja projektu znajduje się w folderze [`Docs/`](./Docs/), w tym:
 
 ---
 
+## 🔌 Schemat układu
+
+Poniżej znajduje się schemat układu elektronicznego pojazdu:
+
+![Schemat układu](./Milestone 1/img/schemat.png)
+
+---
+
 ## 📅 Harmonogram pracy
 
 - Tydzień 1–2: Koncepcja i lista komponentów  
