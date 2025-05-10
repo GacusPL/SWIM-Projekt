@@ -1,0 +1,20 @@
+IN+ -- + (Zasilanie)
+IN- -- - (Zasilanie)
+OUT- -- GND (L293D)
+OUT- -- 5V (STM32F303VCT6)
+OUT+ -- 5V (STM32F303VCT6)
+OUT+ -- GND (L293D)
+
+A- -- GND (Silnika1)
+A+ -- VIN (Silnika1)
+B- -- GND (Silnika2)
+B+ -- VIN (Silnika2)
+
+PA4 -- IN1
+PA1 -- IN2
+PA2 -- IN3
+PA3 -- IN4
+PE9 -- EN1
+PE11 -- EN2
+5V -- VCC
+GND -- GND 
