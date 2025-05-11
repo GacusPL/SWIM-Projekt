@@ -100,8 +100,9 @@ void robot_stop()
 void robot_sekwencja()
 {
 	// Zmienne z wartościami wypełnienia pwm.
-    const uint16_t pwm_r = 999; // Maksymalne wypełnienie PWM (pełna prędkość) dla prawego silnika
-    const uint16_t pwm_l = 990; // Minimalnie niższe wypełnienie PWM dla lewego silnika, by skorygować tor jazdy
+
+    const uint16_t pwm_r = 989; // Minimalnie niższe wypełnienie PWM dla prawego silnika, by skorygować tor jazdy
+    const uint16_t pwm_l = 999; // Maksymalne wypełnienie PWM (pełna prędkość) dla lewegp silnika
 
     // 1. Prosto
     robot_drive(pwm_r, 1, pwm_l, 1);
@@ -111,7 +112,7 @@ void robot_sekwencja()
 
     // 2. Skręt w prawo (tylko lewy silnik)
     robot_drive(0, 1, pwm_l, 1);
-    HAL_Delay(550);
+    HAL_Delay(600);
     robot_stop();
     HAL_Delay(3000);
 
@@ -123,43 +124,43 @@ void robot_sekwencja()
 
     // 4. Skręt w lewo (tylko prawy silnik)
     robot_drive(pwm_r, 1, 0, 1);
-    HAL_Delay(500);
+    HAL_Delay(630);
     robot_stop();
     HAL_Delay(3000);
 
     // 5. Cofanie prosto
     robot_drive(pwm_r, 0, pwm_l, 0);
-    HAL_Delay(1000);
+    HAL_Delay(1100);
     robot_stop();
     HAL_Delay(3000);
 
     // 6. Obrót w miejscu (prawo przód, lewo tył)
     robot_drive(pwm_r, 1, pwm_l, 0);
-    HAL_Delay(500);
+    HAL_Delay(650);
     robot_stop();
     HAL_Delay(3000);
 
     // 7. Krótki ruch do przodu
     robot_drive(pwm_r, 1, pwm_l, 1);
-    HAL_Delay(500);
+    HAL_Delay(600);
     robot_stop();
     HAL_Delay(2000);
 
     // 8. Obrót w miejscu (prawo tył, lewo przód)
     robot_drive(pwm_r, 1, pwm_l, 0);
-    HAL_Delay(500);
+    HAL_Delay(560);
     robot_stop();
     HAL_Delay(3000);
 
     // 9. Skręt w miejscu w prawo (lewe koło do przodu)
     robot_drive(0, 0, pwm_l, 1);
-    HAL_Delay(700);
+    HAL_Delay(570);
     robot_stop();
     HAL_Delay(2000);
 
     // 10. Cofanie z lekkim skrętem
     robot_drive(pwm_r, 0, pwm_l - 200, 0);
-    HAL_Delay(1600);
+    HAL_Delay(1620);
     robot_stop();
 }
 
