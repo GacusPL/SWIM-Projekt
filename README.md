@@ -37,7 +37,7 @@ Celem projektu jest opracowanie modelu autonomicznego pojazdu sterowanego za pom
 
 ### Komunikacja
 - Moduł Bluetooth 4.0 BLE
-- Interfejs UART (komunikacja bezprzewodowa lub przez USB)
+- Interfejs UART (komunikacja bezprzewodowa)
 
 
 ---
