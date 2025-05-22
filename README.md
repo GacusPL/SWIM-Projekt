@@ -36,7 +36,7 @@ Celem projektu jest opracowanie modelu autonomicznego pojazdu sterowanego za pom
 - KAmodQTR8A – moduł z 8 czujnikami odbiciowymi KTIR0711S (detekcja linii)
 
 ### Komunikacja
-- Moduł Bluetooth 4.0 BLE
+- Moduł Bluetooth HC-05
 - Interfejs UART (komunikacja bezprzewodowa)
 
 
