@@ -21,11 +21,13 @@ Celem projektu jest opracowanie modelu autonomicznego pojazdu sterowanego za pom
 ### Mikrokontroler
 - STM32F303VCT6 Discovery
 - Programowanie w języku C z użyciem bibliotek HAL/LL
+- Sterownik silnika krokowego 2 DC L293D mini mostek H
 - IDE: STM32CubeIDE
 
 ### Zasilanie
 - 3x ogniwo Li-Ion INR18650-F1HR 3350mAh
 - Łączne napięcie dostosowane do wymagań silników i mikrokontrolera
+- Przetwornica napięcia LM2596HVS
 
 ### Napęd i sterowanie
 - Chassis Rectangle 2WD – podwozie robota z napędem na dwa koła
