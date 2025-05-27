@@ -88,7 +88,7 @@ Celem projektu jest opracowanie modelu autonomicznego pojazdu sterowanego za pom
 ## 📸 Demo i zdjęcia
 
 - Zdjęcia pojazdu: [`/Media/photos/`](./Media/photos/)
-- Nagranie testów: [Demo Video](#) *(link do YouTube lub Dysku Google)*
+- Nagranie testów: [Demo Video](#) *(https://www.youtube.com/shorts/g8iPMdD_pI8)*
 
 ---
 
