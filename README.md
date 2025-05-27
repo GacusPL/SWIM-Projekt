@@ -63,13 +63,15 @@ Celem projektu jest opracowanie modelu autonomicznego pojazdu sterowanego za pom
 
 ## 🔌 Komendy UART
 
-| Komenda | Opis                    |
-|--------:|-------------------------|
-| `START` | Uruchamia pojazd       |
-| `STOP`  | Zatrzymuje pojazd      |
-| `LEFT`  | Skręt w lewo           |
-| `RIGHT` | Skręt w prawo          |
-| `DIST?` | Zwraca odczyt z HC-SR04 |
+| Komenda | Opis                           |
+|--------:|------------------------------- |
+| `A` | Tryb śledzenia linii               |
+| `S`  | Zatrzymuje pojazd                 |
+| `M`  | Tryb manualnej jazdy (bluetooth)  |
+| `R` | Skręt w prawo                      |
+| `L` | Skręt w lewo                       |  
+| `B` | Jazda do tyłu                      | 
+| `F` | Jazda prosto                       | 
 
 ---
 
