@@ -122,7 +122,16 @@ Poniżej znajduje się schemat układu elektronicznego pojazdu:
 
 ## 🧠 Wnioski
 
-_(Tutaj uzupełnij po zakończeniu projektu)_
+Projekt budowy robota został zrealizowany zgodnie z założeniami. Pojazd oparty na mikrokontrolerze
+STM32F303VCT6 Discovery porusza się autonomicznie po wyznaczonej linii, potrafi wykrywać
+przeszkody oraz odtwarzać dźwięki. Komunikacja za pomocą modułu Bluetooth umożliwia pełne
+sterowanie robotem, w tym kontrolę odtwarzania dźwięków przez DFPlayer, przełączanie trybów
+pracy (manualny/autonomiczny) oraz bezpośrednie sterowanie ruchem. Zarówno konstrukcja
+mechaniczna, jak i układ zasilania okazały się odpowiednie i zapewniły stabilną pracę urządzenia.
+Oprogramowanie zostało podzielone na moduły, co pozwoliło na przejrzyste zaimplementowanie
+wszystkich funkcji. W trakcie realizacji projektu udało się połączyć zagadnienia z zakresu elektroniki,
+programowania systemów wbudowanych oraz mechaniki. Wszystkie zaplanowane funkcjonalności
+zostały poprawnie zaimplementowane i przetestowane w praktyce.
 
 ---
 
